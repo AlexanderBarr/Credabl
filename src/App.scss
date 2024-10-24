@@ -1,0 +1,70 @@
+.task-list {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.task-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-input input {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.task-input button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-list-items {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; // This aligns the delete button to the right
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-item .members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.task-item .member {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+
+.task-item .delete-button {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
